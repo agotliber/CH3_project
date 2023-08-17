@@ -15,21 +15,20 @@ Leveraging this raw information, we generated four data files:
 3. Gene Expression Per Subject
 4. Methylation Level Data Per Sample and CpG Site
 
-For an in-depth understanding of our data preparation process, including associated documents and code, refer to the [Data Preparation Documentation]([link-to-data-prep-documentation](https://docs.google.com/document/d/1mcqvdV8dOxaLs3zar7T54yrKlKJttkI3Kr0jiwrF3Cs/edit)).
-
+For an in-depth understanding of our data preparation process, including associated documents and code, refer to the  [Data Preparation Documentation](https://docs.google.com/document/d/1mcqvdV8dOxaLs3zar7T54yrKlKJttkI3Kr0jiwrF3Cs/edit?usp=sharing)
 
 
 ### 2. Model Implementation
 
 The heart of our project involves implementing the deep learning model introduced in the aforementioned paper by Levy-Jurgenson et al. However, we chose to implement this model using PyTorch, a departure from the original TensorFlow implementation. This decision was guided by our familiarity with PyTorch and our goal to achieve equivalent results to the original model.
 
-Accompanying our PyTorch implementation, we have established a comprehensive training and testing environment. To access the model code and instructions, please visit the [Model Code Repository](link-to-model-code).
+To access the model code and instructions with the training and validation enviornment, please visit the [Model Code Repository](link-to-model-code).
 
 ### 3. Dilution Test: Evaluating Spatial Methylation Prediction
 
-In the third phase, we devised a novel dilution test to gauge the potential success of our spatial methylation prediction approach. Through this test, we simulated gene expression data typical of spatial samples. We introduced a random dilution process to the gene expression test data, wherein the strength of gene expression serves as the probability of a gene's inclusion in the sample's diluted data.
+In the third phase, we introduced dilution tests to gauge the potential success of our methylation prediction approach, on spatial biological data. Through this test, we simulated gene expression data typical of spatial samples. We introduced a random dilution process to the gene expression test data, wherein the strength of gene expression serves as the probability of a gene's inclusion in the sample's diluted data.
 
-We conducted dilution tests at various working points, including 100, 1000, 5000, 10,000, 15,000, and 20,000. Each working point was subjected to 10 iterations, and we derived accuracy statistics based on these iterations. As anticipated, better performance was achieved with a higher retention of gene expression data and decreased performance as we approached complete removal of gene expressions.
+We conducted the tests at various dilusion levels working points: 100, 1000, 5000, 10,000, 15,000, and 20,000 chosen genes. Each working point was subjected to 10 iterations, and we derived the model accuracy statistics based on these iterations. As anticipated, better performance was achieved with a higher retention of gene expression data and decreased performance as we approached complete removal of gene expressions.
 
 For a comprehensive insight into the dilution test results and associated performance graphs, please explore the [Dilution Test Results](link-to-dilution-results).
 
