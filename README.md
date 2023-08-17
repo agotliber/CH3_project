@@ -8,21 +8,15 @@ The primary objective of this project is to reproduce and extend the findings pr
 
 ### 1. Data Preparation
 In this initial phase, we reconstructed the datasets required for training and validating our model, adhering closely to the methodology outlined in the paper. The core datasets utilized include gene expression and methylation level data from patients with BRCA and LUAD conditions, coupled with essential human genome, CpG locations, and gene locations data.
-Leveraging this raw information, we generated four data files: 1. sequences centered around each CpG site 2. distances between CpG sites and genes. 3. gene expression per subject 4. methylation level data per sample and CpG site.
-For an in-depth understanding of our data preparation process, including associated documents and code, refer to the [Data Preparation Documentation](link-to-data-prep-documentation).
-
-## 1. Data Preparation
-
-In this initial phase, we embarked on the meticulous reconstruction of datasets essential for the training and validation of our model, meticulously aligning our approach with the methodology outlined in the paper. The foundational datasets employed encompass gene expression and methylation level data sourced from patients with BRCA and LUAD conditions. Complementing these datasets are pivotal components: human genome data, CpG locations, and gene locations data.
-
-Harnessing the raw information at hand, we diligently generated four distinct data files:
+Leveraging this raw information, we generated four data files: 
 
 1. Sequences Centered around Each CpG Site
 2. Distances between CpG Sites and Genes
 3. Gene Expression Per Subject
 4. Methylation Level Data Per Sample and CpG Site
 
-These meticulously prepared datasets form the bedrock of our project, poised to underpin subsequent model implementation and predictive analyses. For a comprehensive grasp of our data preparation methodology, as well as access to pertinent documentation and code, we invite you to explore the [Data Preparation Documentation](link-to-data-prep-documentation).
+For an in-depth understanding of our data preparation process, including associated documents and code, refer to the [Data Preparation Documentation]([link-to-data-prep-documentation](https://docs.google.com/document/d/1mcqvdV8dOxaLs3zar7T54yrKlKJttkI3Kr0jiwrF3Cs/edit)).
+
 
 
 ### 2. Model Implementation
