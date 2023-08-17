@@ -16,7 +16,6 @@ Leveraging this raw information, we generated four data files, their structure i
 4. Methylation Level Data Per Sample and CpG Site
 
 For an in-depth understanding of our data preparation process, including associated documents and code, refer to the  [Data Preparation Documentation](https://docs.google.com/document/d/1mcqvdV8dOxaLs3zar7T54yrKlKJttkI3Kr0jiwrF3Cs/edit?usp=sharing)
-![Data stracture](data scheme.png)
 
 ### 2. Model Implementation
 
