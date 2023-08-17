@@ -8,7 +8,7 @@ The primary objective of this project is to reproduce and extend the findings pr
 
 ### 1. Data Preparation
 In this initial phase, we reconstructed the datasets required for training and validating our model, adhering closely to the methodology outlined in the paper. The core datasets utilized include gene expression and methylation level data from patients with BRCA and LUAD conditions, coupled with essential human genome, CpG locations, and gene locations data.
-Leveraging this raw information, we generated four data files: 
+Leveraging this raw information, we generated four data files, their structure is demonstrated in the image below: 
 
 1. Sequences Centered around Each CpG Site
 2. Distances between CpG Sites and Genes
@@ -16,7 +16,7 @@ Leveraging this raw information, we generated four data files:
 4. Methylation Level Data Per Sample and CpG Site
 
 For an in-depth understanding of our data preparation process, including associated documents and code, refer to the  [Data Preparation Documentation](https://docs.google.com/document/d/1mcqvdV8dOxaLs3zar7T54yrKlKJttkI3Kr0jiwrF3Cs/edit?usp=sharing)
-
+![Data stracture](URL)
 
 ### 2. Model Implementation
 
