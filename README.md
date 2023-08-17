@@ -30,7 +30,7 @@ In the third phase, we introduced dilution tests to gauge the potential success 
 
 We conducted the tests at various dilusion levels working points: 100, 1000, 5000, 10,000, 15,000, and 20,000 chosen genes. Each working point was subjected to 10 iterations, and we derived the model accuracy statistics based on these iterations. As anticipated, better performance was achieved with a higher retention of gene expression data and decreased performance as we approached complete removal of gene expressions.
 
-For a comprehensive insight into the dilution test results and associated performance graphs, please explore the [Dilution Test Results](link-to-dilution-results).
+For a comprehensive insight into the dilution test results and associated performance graphs, please explore the [Dilution Test Results](https://github.com/agotliber/CH3_project/blob/main/Dilution_experiement_ch3.pdf).
 
 Thank you for visiting our repository and delving into the complexities of predicting spatial DNA methylation patterns through deep learning with attention. We hope our work adds value to the ongoing research in this dynamic field.
 
