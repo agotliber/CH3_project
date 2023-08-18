@@ -1,4 +1,4 @@
-# CH3 Project Reproducing and Extending: Predicting Spatial DNA Methylation from Sequence and Gene Expression using Deep Learning with Attention.
+# CH3 Project- Reproducing and Extending: Predicting Spatial DNA Methylation from Sequence and Gene Expression using Deep Learning with Attention.
 
 Welcome to the CH3 project repository! This repository showcases our work on predicting DNA methylation from sequence data and gene expression data at different retention levels, utilizing deep learning techniques enhanced with attention mechanisms. Our project builds upon the framework presented in the paper by [Levy-Jurgenson et al.](https://link.springer.com/chapter/10.1007/978-3-030-18174-1_13)
 
