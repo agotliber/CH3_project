@@ -31,4 +31,4 @@ We conducted the tests at various dilution levels working points: 100, 1000, 500
 
 For a comprehensive insight into the dilution test results and associated performance graphs, please explore the [Dilution Test Results](https://github.com/agotliber/CH3_project/blob/main/Dilution_experiement_ch3.pdf).
 
-Thank you for visiting our repository, For inquiries or support please reach out to [Adi Gotliber](agotliber@gmail.com), [Dana Keydar][keydar.dana@gmail.com]
+Thank you for visiting our repository, For inquiries or support please reach out to [Adi Gotliber](agotliber@gmail.com), [Dana Keydar](keydar.dana@gmail.com).
