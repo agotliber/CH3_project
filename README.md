@@ -19,8 +19,9 @@ For an in-depth understanding of our data preparation process, including associa
 
 ### 2. Model Implementation
 
-The heart of our project involves implementing the deep learning model introduced in the aforementioned paper by Levy-Jurgenson et al. However, we chose to implement this model using PyTorch, a departure from the original TensorFlow implementation. This decision was guided by our familiarity with PyTorch and our goal to achieve equivalent results to the original model.
-
+The second part of our project involves implementing the model in PyTorch and reproducing the results achieved in the paper using our own code. 
+To confirm the validity of each step, we first replicated the original model's performance using our dataset and the original TensorFlow implementation.
+Then, we proceeded to train and test our PyTorch model using our dataset, successfully reproducing the results at this stage as well.
 To access the model code and instructions with the training and validation environment, please visit the [Model Code Repository](link-to-model-code).
 
 ### 3. Dilution Test: Evaluating Spatial Methylation Prediction
