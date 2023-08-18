@@ -22,7 +22,7 @@ For an in-depth understanding of our data preparation process, including associa
 The second part of our project involves implementing the model in PyTorch and reproducing the results achieved in the paper using our own code. 
 To confirm the validity of each step, we first replicated the original model's performance using our dataset and the original TensorFlow implementation.
 Then, we proceeded to train and test our PyTorch model using our dataset, successfully reproducing the results at this stage as well.
-To access the model code and instructions with the training and validation environment, please visit the [Model Code Repository](link-to-model-code).
+To access the model code and instructions with the training and validation environment, please visit the [Model Code Repository](src).
 
 ### 3. Dilution Test: Evaluating Spatial Methylation Prediction
 
